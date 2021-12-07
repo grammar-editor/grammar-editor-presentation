@@ -1,0 +1,19 @@
+{
+  "name": "grammar-editor-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pfwr index.md index.html && http-server . -a 0.0.0.0 -p 80"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pfwr": "^0.6.0",
+    "http-server": "^14.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
